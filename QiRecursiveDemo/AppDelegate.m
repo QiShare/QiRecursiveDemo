@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "QiRecursiveViewController.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    _window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[QiRecursiveViewController new]];
+    _window.rootViewController = [ViewController new];
     _window.backgroundColor = [UIColor whiteColor];
     [_window makeKeyAndVisible];
     

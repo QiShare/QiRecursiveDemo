@@ -1,5 +1,5 @@
 //
-//  QiRecursiveViewController.h
+//  ViewController.h
 //  QiRecursiveDemo
 //
 //  Created by QiShare on 2018/8/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QiRecursiveViewController : UIViewController
+@interface ViewController : UIViewController
 
 @end

@@ -10,7 +10,7 @@
 		EE2495BB212CFA6D00F26F64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2495BA212CFA6D00F26F64 /* AppDelegate.m */; };
 		EE2495C3212CFA6E00F26F64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2495C2212CFA6E00F26F64 /* Assets.xcassets */; };
 		EE2495C9212CFA6E00F26F64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2495C8212CFA6E00F26F64 /* main.m */; };
-		EE2495D1212CFACB00F26F64 /* QiRecursiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2495D0212CFACB00F26F64 /* QiRecursiveViewController.m */; };
+		EE2495D1212CFACB00F26F64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2495D0212CFACB00F26F64 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +20,8 @@
 		EE2495C2212CFA6E00F26F64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2495C7212CFA6E00F26F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE2495C8212CFA6E00F26F64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE2495CF212CFACB00F26F64 /* QiRecursiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiRecursiveViewController.h; sourceTree = "<group>"; };
-		EE2495D0212CFACB00F26F64 /* QiRecursiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiRecursiveViewController.m; sourceTree = "<group>"; };
+		EE2495CF212CFACB00F26F64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE2495D0212CFACB00F26F64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 			children = (
 				EE2495B9212CFA6D00F26F64 /* AppDelegate.h */,
 				EE2495BA212CFA6D00F26F64 /* AppDelegate.m */,
-				EE2495CF212CFACB00F26F64 /* QiRecursiveViewController.h */,
-				EE2495D0212CFACB00F26F64 /* QiRecursiveViewController.m */,
+				EE2495CF212CFACB00F26F64 /* ViewController.h */,
+				EE2495D0212CFACB00F26F64 /* ViewController.m */,
 				EE2495C2212CFA6E00F26F64 /* Assets.xcassets */,
 				EE2495C7212CFA6E00F26F64 /* Info.plist */,
 				EE2495C8212CFA6E00F26F64 /* main.m */,
@@ -135,7 +135,7 @@
 			files = (
 				EE2495C9212CFA6E00F26F64 /* main.m in Sources */,
 				EE2495BB212CFA6D00F26F64 /* AppDelegate.m in Sources */,
-				EE2495D1212CFACB00F26F64 /* QiRecursiveViewController.m in Sources */,
+				EE2495D1212CFACB00F26F64 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
